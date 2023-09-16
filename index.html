@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <link rel="manifest" href="./assets/site.webmanifest">
+    <link rel="stylesheet" href="./style.css">
+</head> 
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h2>Loan Calculator</h2>
+            <div class="input-group">
+                <label>Loan Amount : </label>
+                <input type="number" id="loanAmountInput" placeholder="Enter Loan Amount">
+            </div>
+
+            <div class="input-group">
+                <label>Interest Rate (%)</label>
+                <input type="number" id="interestRateInput" placeholder="Enter Interest Rate">
+            </div>
+
+            <div class="input-group">
+                <label>Loan Term (In Months)</label>
+                <input type="number" id="loanTermInput" placeholder="Enter Loan Term">
+            </div>
+
+            <button id="calculateBtn">Calculate</button>
+            <div id="result">Final Result</div>
+
+        </div>
+        
+    </div> 
+
+    <script src="./script.js"></script>
+</body>
+</html>
